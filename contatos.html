@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--menu principal-->
+    <header class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacaoAcademica.html">Formação Acadêmica</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contatos.html" class="active">Contatos</a></li>                
+            </ul>
+        </nav>
+    </header>    
+    
+    <!--Conteúdo principal-->
+    <section class="conteudo_Quatro sombreado">   
+        
+        
+        <div class="acima_Direita">    
+            <h2>Minhas redes Sociais</h2>
+    <!--Coloquei as imagens dentro<div> para facilitar no controle do layout e estilização individual-->    
+                <div class="move">
+                    <a href="https://www.instagram.com/mariliabritoevangelista/" target="_blank"><img src="./imagens/instagram.png" alt="logo instagran"></a>     
+                </div>        
+                                       
+                <div class="move">
+                    <a href="https://www.facebook.com/profile.php?id=100090623363107" target="_blank"><img src="./imagens/facebook.png" alt="logo Faceboock"></a>  
+                </div>
+
+                <div class="move">
+                    <a href="https://t.me/MariliaBritoEvangelista" target="_blank"><img src="./imagens/telegram.png" alt="Telegram logo"></a>
+                </div> 
+            
+                <div class="move">                                           
+                    <a href="https://wa.me/5521994442662" target="_blank"><img src="./imagens/whatsapp1.png" walt="logo whatsapp"></a>  
+                </div>              
+                               
+        </div>
+        </section>
+
+        <section class="tabela">        
+            <form action="mailto:4676510@alunouninter.com" method="post">
+                <table> 
+                    <tr>
+                        <th><label  for="nome">Nome :</label></th>
+                        <td><input type="text" name="nome" id="nome" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">Email :</label></th>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg" name="msg"></label>Mensagem :</th> 
+                        <td><textarea name="msg" id="msg">Quer falar comigo?                         Me mande uma mensagem.</textarea></td>                <!--Só para forçar quebra de linha no texto-->
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><button type="submit" value="enviar">Enviar</button></td>
+                    </tr>
+                </table> 
+            </form>      
+        </section>
+     
+    <footer class="footer">
+        <p>© 2024 M@rilia Brito. Trabalho Fundamentos da Programação Web .</p>
+    </footer>
+
+</body>
+</html>
+
